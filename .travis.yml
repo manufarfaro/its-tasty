@@ -14,4 +14,4 @@ jobs:
     - stage: test
       script: lerna run test:ci
     - stage: e2e
-      script: lerna run e2e
+      script: lerna run e2e:ci
