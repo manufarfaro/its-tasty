@@ -1,4 +1,8 @@
 {
+  "env": {
+    "node": true,
+    "mocha": true
+  },
   "extends": [
     "eslint:recommended",
     "plugin:node/recommended"
@@ -15,6 +19,9 @@
     "node/prefer-global/url-search-params": ["error", "always"],
     "node/prefer-global/url": ["error", "always"],
     "node/prefer-promises/dns": "error",
-    "node/prefer-promises/fs": "error"
+    "node/prefer-promises/fs": "error",
+    "node/no-unpublished-import": ["error", {
+      "allowModules": ["chai"]
+    }]
   }
 }

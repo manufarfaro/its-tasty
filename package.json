@@ -3,8 +3,11 @@
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap",
+    "lint": "lerna run lint",
+    "build": "lerna run build --scope ui-app",
     "test": "lerna run test --stream --no-bail",
-    "test:ci": "lerna run test:ci --stream --no-bail"
+    "test:ci": "lerna run test:ci --stream --no-bail",
+    "e2e:ci":  "lerna run e2e:ci --stream --no-bail --scope ui-app"
   },
   "devDependencies": {
     "lerna": "^3.20.2"

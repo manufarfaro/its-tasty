@@ -5,5 +5,13 @@ node_js:
 addons:
   chrome: stable
 
-script:
-  - lerna run test:ci
+jobs:
+  include:
+    - stage: lint
+      script: lerna run lint
+    - stage: build
+      script: lerna run build
+    - stage: test
+      script: lerna run test:ci
+    - stage: e2e
+      script: lerna run e2e
