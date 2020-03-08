@@ -1,6 +1,10 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "test": "lerna run test --stream --no-bail",
+    "test:ci": "lerna run test:ci --stream --no-bail"
+  },
   "devDependencies": {
     "lerna": "^3.20.2"
   }
