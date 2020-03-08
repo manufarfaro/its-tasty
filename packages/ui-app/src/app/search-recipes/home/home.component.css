@@ -1,0 +1,19 @@
+:host{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+:host .logo {
+  width: 20vw;
+}
+
+:host .logo img {
+  width: 100%;
+}
+
+:host .name {
+  text-align: center;
+  font-size: 3rem;
+}
