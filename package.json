@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap",
+    "start": "lerna run start --parallel",
     "lint": "lerna run lint",
     "build": "lerna run build --scope ui-app",
     "test": "lerna run test --stream --no-bail",
