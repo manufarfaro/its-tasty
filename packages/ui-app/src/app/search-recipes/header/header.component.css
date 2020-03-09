@@ -1,0 +1,27 @@
+:host {
+  height: 75px;
+  display: flex;
+  background-color: var(--primary-background-color);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+
+.company-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.company-info .logo {
+  margin: 2rem;
+}
+
+.company-info .logo img {
+  width: 50px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+}

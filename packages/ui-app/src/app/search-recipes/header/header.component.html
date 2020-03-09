@@ -1,0 +1,10 @@
+<section class="company-info">
+  <div class="logo">
+    <a [routerLink]="['/']">
+      <img src="assets/images/its-tasty-logo.svg">
+    </a>
+  </div>
+</section>
+<div class="search-box">
+  <app-search-input (keyUpEnter)="onEnter($event)" [value]="inputValue"></app-search-input>
+</div>

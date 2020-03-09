@@ -1,8 +1,9 @@
-<section>
-  <div class="logo">
-    <img src="assets/images/its-tasty-logo.svg">
-  </div>
-  <div class="name">
-    It's Tasty
-  </div>
-</section>
+<div class="row logo">
+  <img src="assets/images/its-tasty-logo.svg">
+</div>
+<div class="row name">
+  It's Tasty
+</div>
+<div class="row search-box">
+  <app-search-input (keyUpEnter)="onEnter($event)"></app-search-input>
+</div>

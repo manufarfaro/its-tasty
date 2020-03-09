@@ -1,0 +1,26 @@
+:host {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  height: 55px;
+  width: 100%;
+  background-color: #ffffff;
+  border: var(--default-box-border);
+  box-shadow: var(--default-box-shadow);
+}
+
+.end-adornment {
+  position: absolute;
+  right: 1rem;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: .5rem;
+}

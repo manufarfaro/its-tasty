@@ -1,0 +1,17 @@
+.result-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.result-item .column {
+  margin: 1rem;
+}
+
+.result-item .photo img {
+  max-width:  150px;
+}
+
+.result-item .description {
+  display: flex;
+  flex-direction: column;
+}

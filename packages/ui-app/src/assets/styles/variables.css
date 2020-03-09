@@ -1,4 +1,7 @@
 :root {
-  --background-color: #f7f7f7;
-  --default-text-color: #222222;
+  --primary-background-color: #f7f7f7;
+  --primary-text-color: #222222;
+
+  --default-box-border: 1px solid rgba(0,0,0,0.15);
+  --default-box-shadow: 0 2px 3px rgba(0,0,0,0.06)
 }

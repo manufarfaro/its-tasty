@@ -1,0 +1,9 @@
+<input
+  class="search-input"
+  type="search"
+  placeholder="Search for recipes..."
+  (keyup)="onKey($event)"
+  (keyup.enter)="onKeyEnter($event)"
+  [defaultValue]="value"
+/>
+<div *ngIf="value" class="end-adornment" [@fadeInOut]>Enter to search</div>

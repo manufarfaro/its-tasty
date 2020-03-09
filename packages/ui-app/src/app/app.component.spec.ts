@@ -1,7 +1,7 @@
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { RouterOutlet } from "@angular/router";
-import { By } from "@angular/platform-browser";
+import { RouterOutlet } from '@angular/router';
+import { By } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 

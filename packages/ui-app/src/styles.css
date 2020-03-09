@@ -11,6 +11,5 @@ html {
 }
 
 body {
-  background-color: var(--background-color);
-  color: var(--default-text-color);
+  color: var(--primary-text-color);
 }
