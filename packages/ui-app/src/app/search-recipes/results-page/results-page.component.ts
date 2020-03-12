@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Recipe } from '../shared/models/recipe.model';
+
 @Component({
   selector: 'app-results-page',
   templateUrl: './results-page.component.html',
