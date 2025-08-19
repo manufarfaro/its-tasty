@@ -23,6 +23,11 @@
   "engines": {
     "node": ">=24"
   },
+  "overrides": {
+    "ajv": "^6.12.3",
+    "path-parse": "^1.0.7",
+    "tmp": "^0.2.4"
+  },
   "dependencies": {
     "koa": "^2.16.2",
     "koa-body": "^4.1.1",
