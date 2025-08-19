@@ -27,6 +27,8 @@
     "postcss": "^8.4.31",
     "form-data": "^2.5.4",
     "parse-url": "^8.1.0",
-    "parse-path": "^5.0.0"
+    "parse-path": "^5.0.0",
+    "webpack": "^5.94.0",
+    "loader-utils": "^2.0.3"
   }
 }
