@@ -1,11 +1,9 @@
 # its-tasty
-the recipes search engine non-cookers
+the recipes search engine non-cookers.
 
-## Badges
+## Overview
 
-#### Master
-
-[![Build Status](https://travis-ci.com/manufarfaro/its-tasty.svg?token=CK8NhKfbvykptmLBDn6C&branch=master)](https://travis-ci.com/manufarfaro/its-tasty)
+This project is just a simple angular + recipes api monorepo to test some features around Angular (at that time, v9).
 
 ---
-manufarfaro. 2020
+manufarfaro. 2025
